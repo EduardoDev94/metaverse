@@ -62,7 +62,7 @@ header {
 body {
     background-image: url(/./assets/img/Background.png);
     background-repeat: no-repeat;
-    background-size: 1055px 722px;
+    background-size: 1380px 722px;
 }
 
 .texto-principal {
@@ -70,7 +70,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 150px 300px;
+    margin: 15% 24%;
     gap: 30px
 }
 .texto-principal h1 {
@@ -83,4 +83,78 @@ body {
     font-size: 1.3rem;
     text-align: center;
 }
+h4 {
+    text-align: center;
+    color:white;
+    margin-top: 21%;
+    font-size: 1.3rem;
+}
+#get-started {
+    appearance: none;
+    height:30px;
+    width: 120px;
+    border-radius: 10px;
+    color: #167B63;
+    border: 1px solid white
+}
+#join {
+    appearance: none;
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background:none;
+    color: white
+}
 
+footer {
+    margin-top: 30vh;
+}
+
+@media (max-width: 660px){
+.texto-principal h1 {
+    
+  font-size: 2.5rem;
+}
+   
+
+ #icon {
+    display:flex
+
+}
+.menu-list {
+    display:none
+}
+#start-work {
+    display:none
+}
+.menu-principal {
+    margin: 35% 1%
+}
+.header {
+    justify-content: space-between
+}
+
+
+}
+@media (max-width: 470px){
+    .buttons-above{
+        display:flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    #get-started {
+        width: 160px
+    }
+    #join {
+        width: 160px;
+        margin-top: 3%
+    }
+    .menu-principal {
+        margin: 45% 1%
+    }
+    .texto-principal h1 {
+        font-size: 2rem
+
+}
+}
