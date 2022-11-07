@@ -38,7 +38,16 @@ header {
 .menu-list ul li  {
     color: white;
     font-size: 1.2rem;
+    list-style: none;
+    transition: all .5s;
+    cursor: pointer
+    
 }
+.menu-list ul li:hover {
+    font-size:1.8rem;
+    border-bottom: 1px solid black;
+}
+
 #icon {
     color:white;
     display:none
@@ -108,7 +117,9 @@ h4 {
 }
 
 footer {
-    margin-top: 30vh;
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
 }
 
 @media (max-width: 660px){
@@ -144,10 +155,10 @@ footer {
         flex-direction: column;
     }
     #get-started {
-        width: 160px
+        width: 200px
     }
     #join {
-        width: 160px;
+        width: 200px;
         margin-top: 3%
     }
     .menu-principal {
